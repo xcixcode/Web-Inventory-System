@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB 재고 관리 시스템</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WEB 재고 관리 시스템</h1>
+        
+        <!-- 제품 등록 -->
+        <div class="form-container">
+            <h2>제품 등록</h2>
+            <input type="text" id="productName" placeholder="제품명" required list="productNames">
+            <input type="number" id="initialQuantity" placeholder="초기 재고 수량" required>
+            <button id="addProductBtn" onclick="addProduct()">제품 등록</button>
+        </div>
+
+        <!-- 재고 업데이트 -->
+        <div class="form-container">
+            <h2>재고 업데이트</h2>
+            <input type="text" id="updateProductName" placeholder="제품명" required list="productNames">
+            <input type="number" id="updateQuantity" placeholder="변경할 수량" required>
+            <button id="updateStockBtn" onclick="updateStock()">재고 업데이트</button>
+        </div>
+
+        <!-- 재고 조회 -->
+        <div class="form-container">
+            <h2>재고 조회</h2>
+            <input type="text" id="viewProductName" placeholder="제품명" required list="productNames">
+            <button id="viewStockBtn" onclick="viewStock()">재고 조회</button>
+            <p id="stockResult"></p>
+        </div>
+
+        <h3>등록된 제품 목록</h3>
+        <ul id="productList"></ul>
+
+        <!-- 자동완성을 위한 datalist -->
+        <datalist id="productNames"></datalist>
+
+        <!-- 피드백 메시지 -->
+        <div id="feedbackMessage" class="feedback-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
