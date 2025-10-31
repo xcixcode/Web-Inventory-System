@@ -1,4 +1,4 @@
-# WEB 재고 관리 시스템
+# Web-Inventory-System
 
 **HTML, CSS, JavaScript만을 사용해 제작된, 클라이언트 사이드에서 동작하는 웹 기반 재고 관리 애플리케이션**
 
