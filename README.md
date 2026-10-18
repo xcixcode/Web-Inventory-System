@@ -47,10 +47,9 @@ https://xcixcode.github.io/Web-Inventory-System/
 
 ---
 
-## 라이선스
+## 안내 및 참고사항
 
-본 프로젝트는 개인 학습 및 포트폴리오 용도로 제작되었습니다.  
-코드는 **[MIT License](https://opensource.org/licenses/MIT)** 하에 배포되며, 사용 시 해당 라이선스 조건을 준수해야 합니다.
+본 프로젝트는 개인 학습 및 포트폴리오 용도로 제작되었습니다.
 
 > ⚠️ 참고
 >
